@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japa Store</title>
+    <style type="text/css">
+        .tm-social{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+</head>
+
+<!--Nav Bar-->
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <a class="navbar-brand" href="#"> <img src="imagens/Logo.jpeg" width="30" height="30" alt="" class="rounded-circle"> Japa Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+           
+            <li class="nav-item active">
+              <a class="nav-link text-light bg=danger" href="#">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light bg-danger" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Marcas
+              </a>
+              <div class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item bg-danger text-light" href="#">Adidas</a>
+                <a class="dropdown-item bg-danger text-light" href="#">Nike</a>
+                <a class="dropdown-item bg-danger text-light" href="#">Puma</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item bg-danger text-light" href="#">Outras Marcas</a>
+              </div>
+              </li>
+
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light bg-danger" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Genero
+              </a>
+              <div class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item bg-danger text-light" href="#">Masculino</a>
+                <a class="dropdown-item bg-danger text-light" href="#">Feminino</a>
+                <a class="dropdown-item bg-danger text-light" href="#">Infantil</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item bg-danger text-light" href="#">Outros</a>
+              </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light bg-danger"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="imagens/login.png" width="30" height="30" alt="">
+                </a>
+                <div class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item bg-danger text-light" href="#">Logar</a>
+                  <a class="dropdown-item bg-danger text-light" href="#">Cadastrar</a>
+                </div>
+                </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar Produtos" aria-label="Pesquisar">
+            <button class="btn btn-outline-dark text-light my-2 my-sm-0 bg-danger" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+<!--/Nav Bar-->
+<div class="container">
+
+<!--Carousel-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="imagens/Casual.jpg" alt="Primeiro Slide">
+        <div class="carousel-caption d-none d-md-block text-secundary">
+            <h3>ROUPAS CASUAIS</h3>
+            <h6 class="text-danger">japa store</h6>
+            <p>CONFORTO E PRATICIDADE COM ESTILO</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="imagens/Esportivo.jpg" alt="Segundo Slide">
+        <div class="carousel-caption d-none d-md-block text-secundary">
+            <h3>PRODUTOS ESPORTIVOS</h3>
+            <h6 class="text-danger">japa store</h6>
+            <p>VELOCIDADE E PRECISÃO NA HORA DO JOGO</p>
+            </div>
+        </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="imagens/Nike.jpg" alt="Terceiro Slide">
+        <div class="carousel-caption d-none d-md-block text-secundary">
+        <h3>ACESSORIOS E PRODUTOS EM GERAL</h3>
+            <h6 class="text-danger">japa store</h6>
+            <p>VEM PRA LOJA</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+<!--/Carousel-->
+
+<!--Card-->
+<div class="row  mt-5 mb-5">
+    <div class="card col-md-3" style="width: 15rem;">
+        <img class="card-img-top" src="imagens/Card1.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+            <h5 class="card-title">Boné Nike Sportswear Heritage86</h5>
+            <p class="card-text">Confeccionado em algodão, esse aba curva conta com fecho strapback, 
+            garantindo ajuste eficaz. O slogan Just Do It aparece na parte frontal e é um diferencial. 
+            Garanta o seu!</p>
+            <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+    </div>
+
+  <div class="card col-md-3" style="width: 15rem;">
+    <img class="card-img-top" src="imagens/Card2.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Bolsa Nike Sportswear Essentials Hip Pack</h5>
+      <p class="card-text">Fabricada com material resistente, 
+        conta com compartimento ideal para guardar pequenos objetos e 
+        possui alça ajustável para usar de forma transversal. 
+        Eleve seu visual sportswear com a shoulder bag Nike. Garanta já a sua!</p>
+      <a href="#" class="btn btn-primary">Visitar</a>
+    </div>
+  </div>
+
+  <div class="card col-md-3" style="width: 15rem;">
+    <img class="card-img-top" src="imagens/Card3.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Jaqueta Pré-Jogo Real Madrid</h5>
+      <p class="card-text"> Seu tecido macio mantém o corpo seco e confortável.
+        O escudo estampado por heat-transfer prova que você faz parte do time.</p>
+      <a href="#" class="btn btn-primary">Visitar</a>
+    </div>
+  </div>
+
+  <div class="card col-md-3" style="width: 15rem;">
+    <img class="card-img-top" src="imagens/Card4.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Nike Air Max 270 React</h5>
+      <p class="card-text">O primeiro Air Max lifestyle da Nike com a espuma mais macia,
+        mais suave e mais resiliente já utilizada no Nike Air Max 270 React.
+        O design foi inspirado no panteão Air Max, exibindo a maior inovação da Nike
+        com amplo campo de visualização e cores novas.</p>
+      <a href="#" class="btn btn-primary">Visitar</a>
+    </div>
+  </div>
+</div>
+<!--/Card-->
+
+<!--Texto e Video-->
+<div class="row mt-5 mb-5">
+    <div class="col-md-6">
+        <h3>Texto teste</h3>
+        
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Doloremque recusandae ullam eveniet molestias ex. Cum voluptas 
+        tempore ad beatae saepe eligendi quos id similique,
+        molestiae tempora culpa ullam tenetur provident.</p>
+        
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Doloremque recusandae ullam eveniet molestias ex. Cum voluptas 
+        tempore ad beatae saepe eligendi quos id similique,
+        molestiae tempora culpa ullam tenetur provident.</p>
+    </div>
+    <div class="col-md-6">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/_wLlhIU1KiY" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </div>
+</div>
+<!--/Texto e Video-->
+
+<!--Formulario-->
+
+<h5 class="d-flex justify-content-center">Entre em Contato Conosco:</h5>
+
+<form class="needs-validation" novalidate>
+    <div class="form-row">
+      <div class="col-md-4 mb-3">
+        <label for="validationCustom01">Primeiro nome</label>
+        <input type="text" class="form-control" id="validationCustom01" placeholder="Nome" value="Mark" required>
+        <div class="valid-feedback">
+          Tudo certo!
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationCustom02">Sobrenome</label>
+        <input type="text" class="form-control" id="validationCustom02" placeholder="Sobrenome" value="Otto" required>
+        <div class="valid-feedback">
+          Tudo certo!
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationCustomUsername">Usuário</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+          </div>
+          <input type="text" class="form-control" id="validationCustomUsername" placeholder="Usuário" aria-describedby="inputGroupPrepend" required>
+          <div class="invalid-feedback">
+            Por favor, escolha um nome de usuário.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-8 mb-3">
+        <label for="validationCustom03">Cidade</label>
+        <input type="text" class="form-control" id="validationCustom03" placeholder="Cidade" required>
+        <div class="invalid-feedback">
+          Por favor, informe uma cidade válida.
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationCustom04">Estado</label>
+        <input type="text" class="form-control" id="validationCustom04" placeholder="Estado" required>
+        <div class="invalid-feedback">
+          Por favor, informe um estado válido.
+        </div>
+      </div>
+      <div class="col-md-10 mb-3">
+        <label for="validationCustom05">Assunto</label>
+        <input type="text" class="form-control" id="validationCustom05" placeholder="Assunto" required>
+        <div class="invalid-feedback">
+          Por favor, informe o assunto.
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+          Concordo com os termos e condições
+        </label>
+        <div class="invalid-feedback">
+          Você deve concordar, antes de continuar.
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-primary" type="submit">Enviar</button>
+  </form>
+  
+  <script>
+  // Exemplo de JavaScript inicial para desativar envios de formulário, se houver campos inválidos.
+  (function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Pega todos os formulários que nós queremos aplicar estilos de validação Bootstrap personalizados.
+      var forms = document.getElementsByClassName('needs-validation');
+      // Faz um loop neles e evita o envio
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+  </script>
+
+<!--/Formulario-->
+
+<!--Footer-->
+<hr>
+<footer>
+    <div class="row d-flex justify-content-center">
+        <div class="d-flex justify-content-center">
+            <a  class="col-md-6" href="https://www.facebook.com/natan.araujo.507" target="_blank">
+            <img class="tm-social" src="imagens/facebook.png" alt="Link do Facebook"></a>
+            
+            <a class="col-md-6" href="https://www.instagram.com/_japaastoree/" target="_blank">
+            <img class="tm-social" src="imagens/instagram.png" alt="Link do Instagram"></a>
+        </div>
+    </div>
+    <p class="d-flex justify-content-center">Todos os direito reservados a Natanael Araujo &copy;</p>
+</footer>
+<!--/Footer-->
+
+
+
+
+</div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+    </body>
+</html>
